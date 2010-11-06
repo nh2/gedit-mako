@@ -40,7 +40,7 @@
 		</context>
 
 		<context id="embedded-python-block-ltgt" end-at-line-end="false">
-			<start>^&lt;%$</start>
+			<start>^&lt;%!?$</start>
 			<end>^%&gt;$</end>
 			<include>
 				<context sub-pattern="0" where="start" style-ref="mako-function"/>
